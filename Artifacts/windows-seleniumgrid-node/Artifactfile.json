@@ -30,6 +30,6 @@
         }
     },
     "runCommand": {
-        "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted \"& ./GridDeployer.ps1 -seleniumGridJarFile ', parameters('seleniumServerStandaloneJarFile'), ' -hubMachineIP ', parameters('hubMachineAddress'), ' -role ', 'node', ' -configFile config:', parameters('configFile'), '\"')]"
+        "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted \"& ./GridDeployer.ps1 -seleniumGridJarFile ', parameters('seleniumServerStandaloneJarFile'), ' -hubMachineIP ', parameters('hubMachineAddress'), ' -role node -configFile config:', parameters('configFile'), '\"')]"
     }
 }

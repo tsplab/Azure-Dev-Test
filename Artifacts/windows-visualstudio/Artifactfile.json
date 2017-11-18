@@ -36,7 +36,7 @@
     }
   },
   "runCommand": {
-    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./artifact-main.ps1 -version ''', parameters('version'), ''' -sku ''', parameters('sku'), ''' -installerArgs ', '''', parameters('installerArgs'), '''', '\"')]"
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./artifact-main.ps1 -version ''', parameters('version'), ''' -sku ''', parameters('sku'), ''' -installerArgs ''', parameters('installerArgs'), '''\"')]"
   },
   "postDeployActions": [
     {

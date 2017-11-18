@@ -9,6 +9,6 @@
     "iconUri": "https://chocolatey.org/content/packageimages/sql-server-management-studio.13.0.16106.4.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'sql-server-management-studio', '\"')]"
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList sql-server-management-studio\""
     }
 }

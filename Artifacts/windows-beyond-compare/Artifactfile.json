@@ -9,6 +9,6 @@
     "iconUri": "https://chocolatey.org/content/packageimages/beyondcompare.4.2.3.22587.png",
     "targetOsType": "Windows",
     "runCommand": {
-        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList ', 'beyondcompare', '\"')]"
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass \"& ./startChocolatey.ps1 -PackageList beyondcompare\""
     }
 }

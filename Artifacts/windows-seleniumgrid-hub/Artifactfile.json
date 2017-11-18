@@ -25,6 +25,6 @@
         }
     },
     "runCommand": {
-        "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted \"& ./GridDeployer.ps1 -seleniumGridJarFile ', parameters('seleniumServerStandaloneJarFile'), ' -hubMachineIP ', 'NA', ' -role ', 'hub', ' -configFile config:', parameters('configFile'), '\"')]"
+        "commandToExecute": "[concat('powershell -ExecutionPolicy Unrestricted \"& ./GridDeployer.ps1 -seleniumGridJarFile ', parameters('seleniumServerStandaloneJarFile'), ' -hubMachineIP NA -role hub -configFile config:', parameters('configFile'), '\"')]"
     }
 }

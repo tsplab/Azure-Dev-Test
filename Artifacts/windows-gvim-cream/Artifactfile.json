@@ -19,6 +19,6 @@
   },
   "targetOsType": "Windows",
   "runCommand": {
-    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass -File Install-gVim.ps1', ' -VimInstallerPath ', parameters('VimInstallerPath'))]"
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./Install-gVim.ps1 -VimInstallerPath ''', parameters('VimInstallerPath')'''\"')]"
   }
 }

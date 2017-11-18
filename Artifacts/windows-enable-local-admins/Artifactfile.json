@@ -9,6 +9,6 @@
     "targetOsType": "Windows",
     "parameters": {},
     "runCommand": {
-        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File EnableLocalAdmins.ps1"
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass \"& EnableLocalAdmins.ps1\""
     }
 }
